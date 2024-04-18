@@ -3,5 +3,11 @@ export interface simpleBlogCard {
   smallDescription: string;
   currentSlug: string;
   titleImage: any;
-  content: string;
+}
+
+export interface fullBlog {
+  title: string;
+  content: any;
+  currentSlug: string;
+  titleImage: any;
 }
